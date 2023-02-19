@@ -46,7 +46,7 @@ export const useDataStore = defineStore("data", {
               for (let i = 0; i < Object.keys(element.kids).length; i++) {
                 const kids = Object.values(element.kids)[i];
 
-                if (kids && kids.records && kids.records.length) {
+                if (kids?.records?.length) {
                   if (removeNestedObj(kids.records, valToFind, element.kids)) {
                     if (!kids.records.length) {
                       delete element.kids[Object.keys(element.kids)[i]];
