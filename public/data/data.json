@@ -38,33 +38,6 @@
             }
           }
         ]
-      },
-
-      "has_something": {
-        "records": [
-          {
-            "data": {
-              "Relative ID": "33333",
-              "Patient ID": "34",
-              "Is alive?": "true",
-              "Frequency of visits": "29"
-            },
-            "kids": {
-              "has_phone": {
-                "records": [
-                  {
-                    "data": {
-                      "Phone ID": "44444",
-                      "ID of the relative": "1007",
-                      "Phone": "+(179)-982-0570"
-                    },
-                    "kids": {}
-                  }
-                ]
-              }
-            }
-          }
-        ]
       }
     }
   },
