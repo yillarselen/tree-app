@@ -52,14 +52,7 @@ const toggleAccordion = () => {
       {{ item }}
     </td>
     <td className="w-10 px-4 py-4">
-      <button
-        @click="
-          () => {
-            deleteNode(activeIndex);
-            // isOpen = false;
-          }
-        "
-      >
+      <button @click="() => deleteNode(activeIndex)">
         <font-awesome-icon :icon="['fas', 'fa-trash']" />
       </button>
     </td>
